@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.ramandeepsingh_venuyerramsetti_snehapaul_sws901termproject"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="21" />
+
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".Main"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Nurse_home"
+            android:label="@string/title_activity_home" >
+        </activity>
+        <activity
+            android:name=".Login"
+            android:label="@string/title_activity_login" >
+        </activity>
+        <activity
+            android:name=".Register"
+            android:label="@string/title_activity_register" >
+        </activity>
+        <activity
+            android:name=".Patient_Home"
+            android:label="@string/title_activity_patient__home" >
+        </activity>
+        <activity
+            android:name=".Nurse_AddData"
+            android:label="@string/title_activity_nurse__add_data" >
+        </activity>
+        <activity
+            android:name=".Nurse_Previous"
+            android:label="@string/title_activity_nurse__previous" >
+        </activity>
+        <activity
+            android:name=".Nurse_Message"
+            android:label="@string/title_activity_nurse__message" >
+        </activity>
+        <activity
+            android:name=".Patient_Alert"
+            android:label="@string/title_activity_patient__alert" >
+        </activity>
+        <activity
+            android:name=".Patient_Location"
+            android:label="@string/title_activity_patient__location" >
+        </activity>
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+        <meta-data
+            android:name="com.google.android.maps.v2.API_KEY"
+            android:value="AIzaSyAl-OP9nwjttr1owKsUTwDdVYAnZ5m0A0k" />
+
+        <activity
+            android:name=".Patient_Media"
+            android:label="@string/title_activity_patient__media" >
+        </activity>
+        <activity
+            android:name=".Patient_AddInfo"
+            android:label="@string/title_activity_patient__add_info" >
+        </activity>
+        <activity
+            android:name=".Patient_checklist"
+            android:label="@string/title_activity_patient_checklist" >
+        </activity>
+    </application>
+
+</manifest>
