@@ -1,0 +1,106 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/buttongradient"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.finalproject.AddPatientLog" xmlns:android1="http://schemas.android.com/apk/res/android">
+
+    <ScrollView
+        android1:id="@+id/scrollView1"
+        android1:layout_width="match_parent"
+        android1:layout_height="wrap_content" >
+
+        <LinearLayout
+            android1:layout_width="match_parent"
+            android1:layout_height="match_parent"
+            android1:orientation="vertical" >
+
+            <TextView
+                android1:layout_width="fill_parent"
+                android1:layout_height="wrap_content"
+                android1:text="@string/bodyTemp"
+                android1:textColor="#ffffff"
+                android1:textSize="10pt"
+                android1:textStyle="bold" />
+
+            <EditText
+                android1:id="@+id/bodyTemp"
+                android1:layout_width="fill_parent"
+                android1:layout_height="wrap_content"
+                android1:ems="10"
+                android1:hint="@string/enter_bodyTemp"
+                android1:inputType="number"
+                android1:textColor="#ffffff" >
+
+                <requestFocus />
+            </EditText>
+
+            <TextView
+                android1:layout_width="fill_parent"
+                android1:layout_height="wrap_content"
+                android1:text="@string/heartRate"
+                android1:textColor="#ffffff"
+                android1:textSize="10pt"
+                android1:textStyle="bold" />
+
+            <EditText
+                android1:id="@+id/heartRate"
+                android1:layout_width="fill_parent"
+                android1:layout_height="wrap_content"
+                android1:ems="10"
+                android1:hint="@string/enter_heartRate"
+                android1:inputType="number"
+                android1:textColor="#ffffff" />
+
+            <TextView
+                android1:layout_width="fill_parent"
+                android1:layout_height="wrap_content"
+                android1:text="@string/bloodPressure"
+                android1:textColor="#ffffff"
+                android1:textSize="10pt"
+                android1:textStyle="bold" />
+
+            <EditText
+                android1:id="@+id/bloodPressure"
+                android1:layout_width="fill_parent"
+                android1:layout_height="wrap_content"
+                android1:ems="10"
+                android1:hint="@string/enter_bloodPressure"
+                android1:inputType="number"
+                android1:textColor="#ffffff" />
+
+            <TextView
+                android1:layout_width="fill_parent"
+                android1:layout_height="wrap_content"
+                android1:text="@string/respRate"
+                android1:textColor="#ffffff"
+                android1:textSize="10pt"
+                android1:textStyle="bold" />
+
+            <EditText
+                android1:id="@+id/respRate"
+                android1:layout_width="fill_parent"
+                android1:layout_height="wrap_content"
+                android1:ems="10"
+                android1:hint="@string/enter_respRate"
+                android1:inputType="number"
+                android1:textColor="#ffffff" />
+
+            <Button
+                android1:id="@+id/addPatientLog"
+                android1:layout_width="fill_parent"
+                android1:layout_height="wrap_content"
+                android1:background="@drawable/buttongradientorange"
+                android1:paddingTop="2dp"
+                android1:text="@string/addPatientLog"
+                android1:textColor="#ffffff" />
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
