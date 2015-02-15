@@ -34,6 +34,14 @@
             android:name=".AddPatientLog"
             android:label="@string/title_activity_add_patient_log" >
         </activity>
+        <activity
+            android:name=".Nursse"
+            android:label="@string/title_activity_nursse" >
+        </activity>
+        <activity
+            android:name=".SmsForNurse"
+            android:label="@string/title_activity_sms_for_nurse" >
+        </activity>
     </application>
 
 </manifest>
