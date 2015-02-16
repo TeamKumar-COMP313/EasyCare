@@ -39,7 +39,7 @@ public class Patient_Media extends Activity {
 			select.setAdapter(listAdapter);
 			listAdapter.notifyDataSetChanged();
 			
-		select.setOnItemClickListener(new OnItemClickListener() {
+		/*select.setOnItemClickListener(new OnItemClickListener() {
 
 			@Override
 			public void onItemClick(AdapterView<?> parent, View view,
@@ -67,7 +67,7 @@ public class Patient_Media extends Activity {
 
 				}
 			}
-		});
+		});*/
 
 		
 		// Load and start the movie
