@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">EasyCare</string>
+    <string name="hello_world">Hello world!</string>
+     <string name="action_settings">Settings</string>
+    <string name="title_activity_home">Home</string>
+    <string name="title_activity_login">Login</string>
+    <string name="title_activity_register">Register</string>
+    <string name="title_activity_patient__home">Patient_Home</string>
+    <string name="title_activity_nurse__add_data">Nurse_AddData</string>
+    <string name="title_activity_nurse__previous">Nurse_Previous</string>
+    <string name="title_activity_nurse__message">Nurse_Message</string>
+    <string name="title_activity_patient__alert">Patient_Alert</string>
+    <string name="title_activity_patient__location">Patient_Location</string>
+    <string name="get_location">Get Location</string>
+    <string name="disconnect">Disconnect Service</string>
+    <string name="connect">Connect Service</string>
+    <string name="title_activity_patient__media">Patient_Media</string>
+    <string name="title_activity_patient__add_info">Patient_AddInfo</string>
+    <string name="title_activity_patient_checklist">Patient_checklist</string>
+</resources>
