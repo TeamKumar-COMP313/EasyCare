@@ -9,5 +9,6 @@
     <string name="title_activity_add_patient_log">AddPatientLog</string>
     <string name="title_activity_nursse">Nursse</string>
     <string name="title_activity_sms_for_nurse">SmsForNurse</string>
+    <string name="title_activity_main_c">MainC</string>
 
 </resources>

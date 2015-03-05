@@ -42,6 +42,10 @@
             android:name=".SmsForNurse"
             android:label="@string/title_activity_sms_for_nurse" >
         </activity>
+        <activity
+            android:name=".MainC"
+            android:label="@string/title_activity_main_c" >
+        </activity>
     </application>
 
 </manifest>
