@@ -10,5 +10,6 @@
     <string name="title_activity_nursse">Nursse</string>
     <string name="title_activity_sms_for_nurse">SmsForNurse</string>
     <string name="title_activity_main_c">MainC</string>
+    <string name="title_activity_patient__add_info">Patient_AddInfo</string>
 
 </resources>

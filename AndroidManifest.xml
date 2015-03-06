@@ -46,6 +46,10 @@
             android:name=".MainC"
             android:label="@string/title_activity_main_c" >
         </activity>
+        <activity
+            android:name=".Patient_AddInfo"
+            android:label="@string/title_activity_patient__add_info" >
+        </activity>
     </application>
 
 </manifest>
