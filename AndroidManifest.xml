@@ -50,6 +50,10 @@
             android:name=".Patient_AddInfo"
             android:label="@string/title_activity_patient__add_info" >
         </activity>
+        <activity
+            android:name=".Patient_checklist"
+            android:label="@string/title_activity_patient_checklist" >
+        </activity>
     </application>
 
 </manifest>

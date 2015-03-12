@@ -12,7 +12,7 @@ import android.widget.Toast;
 
 
 
-
+																																																																
 
 public class AddPatientLog extends Activity {
 
